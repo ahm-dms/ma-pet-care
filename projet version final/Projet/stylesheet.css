@@ -1,0 +1,1002 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+.header-home-page {
+	padding: 10px 40px 0 40px;
+	background-image: url('Untitled-1.svg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 160vh;
+	background-position: center center;
+	background-color: #e6e6e6;
+	text-transform: uppercase;
+	font-family: roboto;
+	font-size: 18px;
+}
+.NAVbar-style {
+	margin-right: 15px;
+
+}
+.navbar-brand img {
+	height: 10vh;
+	margin-right: 110px;
+	
+}
+a.nav-link:hover {
+	color: #777776 !important;
+}
+.nav-link-mobile {
+	display: none;
+}
+.sign-up-btn {
+	color: #fff;
+	background-color: #352a7e;
+	padding: 10px 22px;
+	font-size: 16px;
+	border: none;
+	border-radius: 16px;
+	color: #fff; 
+	font-family: Roboto;
+	box-shadow: 20px 12px 100px -2px rgba(0,0,0,0.56);
+}
+.sign-up-btn:hover {
+	transform: translateY(1px);
+}
+.login-btn {
+	font-family: Roboto;
+	color: #fff;
+	background: none;
+	padding: 10px 25px;
+	font-size: 16px;
+	border: solid 2px  #352a7e;
+	border-radius: 16.5px;
+	color: #fff; 
+	box-shadow: 20px 12px 100px -2px rgba(0,0,0,0.56);
+	margin-right: 30px;
+}
+.login-btn a {
+	text-decoration: none;
+	color: #000;
+}
+.sign-up-btn a {
+	text-decoration: none;
+	color: #fff;
+}
+.login-btn a:hover {
+	color: #ffff;
+}
+.login-btn:hover {
+	background-color: #352a7e;
+	transform: translateY(1px);
+}
+.btn-btn-header {
+	width: 300px;
+}
+.title-Big-head {
+	font-family: mukta;
+	color: #5649ad;
+	font-weight: bold;
+	font-size: 6.2rem;
+	margin: 120px 0 0 25px;
+	text-transform: uppercase;
+
+}
+
+.para-head {
+	font-family: Roboto;
+	color: #3c3c3b;
+	font-size: 36px;
+	margin: 0px 0 0 25px;
+	text-transform: initial;
+	line-height: 20px;
+}
+
+.multi-input-grp {
+	margin: 70px 0 0 25px;
+	width: 550px;
+}
+
+.btn-btn-services {
+	border-radius: 20px;
+	background-color: #fff;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	box-shadow: 20px 10px 100px -2px rgba(0,0,0,0.50);
+}
+.form-local {
+	border-radius: 20px;
+	border-top: none;
+	border-bottom: none;
+	box-shadow: 20px 10px 100px -2px rgba(0,0,0,0.50);
+}
+
+.fa-search {
+	position: relative;
+	left: 540px;
+	top: -31px;
+	z-index: 3;
+	color: #c6c6c5;
+}
+
+.services-Big-title {
+	text-align: center;
+	position: relative;
+	bottom: 100px;
+	font-family: mukta;
+	color: #352a7e;
+	font-weight: bold;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+
+.services-section {
+	background-color: #e6e6e6;
+	padding: 0 110px;
+	background-image: url('img/svg-curve-line.svg');
+	background-repeat: no-repeat;
+	height: 120vh;
+	background-position: center bottom;
+}
+.petsitting-section img ,svg{
+	width: 12vw;
+}
+.bg-walking {
+		transition: .2s ease-out;
+		stroke: #B3ABD5;
+	}
+.bg-walking:hover {
+		stroke: #59447c;
+		stroke-width: 8px;
+	}
+
+.petsitting-section p {
+	font-family: roboto;
+	color: #4d4d4d;
+	font-size: 14px;
+}
+.petsitting-section h3 {
+	font-family: roboto;
+	font-weight: bold;
+	color:  #352a7e;
+	margin: 16px 0;
+	font-size: 20px;
+}
+.petsitting-section {
+	padding: 0 28px;
+}
+
+.about-petsitting {
+	text-align: center;
+	position: relative;
+	bottom: 100px;
+	font-family: mukta;
+	color: #352a7e;
+	font-weight: bold;
+	font-size: 38px;
+	text-transform: uppercase;
+}
+.about-petsitting-section {
+	background-color: #e6e6e6;
+	padding: 0 110px;
+	background-image: url('img/svg-curve-line-two.svg');
+	background-repeat: no-repeat;
+	height: 160vh;
+	background-position: center bottom;
+}
+.about-petsitting-section-para p {
+	font-family: roboto;
+	color: #4d4d4d;
+	font-size: 20px;
+	text-align: left;
+}
+.about-petsitting-section-svg img {
+	width: 30vw;
+}
+.become-pet-S {
+	font-family: mukta;
+	color: #352a7e;
+	font-weight: bold;
+	font-size: 50px;
+	text-transform: uppercase;
+	margin: 40px 0 60px 0;
+}
+.woman-and-dog img {
+	width: 40vw;
+}
+.apply-btn {
+	color: #fff;
+	background-color: #352a7e;
+	padding: 10px 55px;
+	font-size: 16px;
+	border: none;
+	border-radius: 16px;
+	color: #fff; 
+	font-family: Roboto;
+	box-shadow: 20px 12px 100px -2px rgba(0,0,0,0.56);
+	float: right;
+	margin-top: 90px;
+}
+.apply-btn:hover {
+	transform: translateY(1px);
+}
+.apply-btn a {
+	text-decoration: none;
+	color: #fff;
+}
+.being-pet-S {
+	width: 600px;
+	margin-bottom: 40px;
+	font-size: 30px;
+}
+
+.footer-home-petsitting {
+	background-color: #b4acea;
+	padding: 30px 70px;
+}
+.footer-icon {
+	width: 7vw;
+	margin-left: 50px;
+}
+
+.nav-footer-ps {
+	margin-top: 50px;
+}
+.join-icons {
+	float: right;
+	font-family: mukta;
+	color: #352a7e;
+	font-weight: bold;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	padding-left: 300px;
+}
+.fa-facebook-square{
+	font-size: 1.9rem;
+	color: #3b5998;
+}
+.fa-instagram {
+	font-size: 1.9rem;
+	background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0 10px;
+}
+.fa-google-plus-square {
+	font-size: 1.9rem;
+	color: #d34836;
+}
+.fab-fab-icon {
+	margin-top: 90px;
+}
+.footer-para-rights p {
+	font-family: mukta;
+	color: #352a7e;
+	font-weight: lighter;
+	font-size: 1rem;
+	text-transform: uppercase;
+	width: 25vw;
+
+}
+
+@media (max-width: 1340px) {
+	.join-icons {
+	float: right;
+	font-family: mukta;
+	color: #352a7e;
+	font-weight: bold;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	padding-left: 200px;
+}
+
+.fa-facebook-square{
+	font-size: 1.7rem;
+	color: #3b5998;
+}
+.fa-instagram {
+	font-size: 1.7rem;
+	background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0 10px;
+}
+.fa-google-plus-square {
+	font-size: 1.7rem;
+	color: #d34836;
+}
+.fab-fab-icon {
+	margin-top: 60px;
+}
+.footer-para-rights p {
+	font-family: mukta;
+	color: #352a7e;
+	font-weight: lighter;
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	width: 22vw;
+
+}
+}
+@media (max-width: 1190px) {
+.about-petsitting {
+	position: relative;
+	bottom: 90px;
+	font-size: 30px;
+}
+.sign-up-btn {
+	padding: 8px 18px;
+	font-size: 14px;
+}
+.login-btn {
+	padding: 8px 18px;
+	font-size: 14px;
+	margin-right: 30px;
+}
+.NAVbar-style {
+	font-size: 16px;
+	margin-right: 10px;
+}
+
+.navbar-brand img {
+	height: 10vh;
+	margin-right: 90px;
+	
+}
+.apply-btn {
+	padding: 10px 55px;
+	font-size: 16px;
+	float: right;
+	margin-top: 30px;
+}
+.being-pet-S {
+	font-size: 20px;
+	margin-bottom: 20px;
+	width: 42vw;
+}
+.title-Big-head {
+	font-family: mukta;
+	font-weight: bold;
+	font-size: 5.9rem;
+	margin: 120px 0 0 25px;
+	text-transform: uppercase;
+
+}
+
+.para-head {
+	font-family: Roboto;	
+	font-size: 30px;
+	margin: 0px 0 0 25px;
+	text-transform: initial;
+	line-height: 20px;
+}
+.services-section {
+	padding: 0 110px;
+	height: 140vh;
+}
+.petsitting-section p {
+	font-family: roboto;
+	color: #4d4d4d;
+	font-size: 13px;
+}
+.about-petsitting-section-para p {
+    font-size: 13px;
+}
+
+}
+
+@media (max-width: 1010px) {
+.NAVbar-style {
+	font-size: 15px;
+	margin-right: 6px;
+}
+.sign-up-btn {
+	padding: 8px 18px;
+	font-size: 13px;
+}
+.navbar-brand img {
+	height: 10vh;
+	margin-right: 80px;
+	
+}
+.login-btn {
+	padding: 8px 18px;
+	font-size: 13px;
+	margin-right: 26px;
+}
+.header-home-page {
+	padding: 8px 30px 0 30px;
+/*	height: 150vh;*/
+}
+
+.title-Big-head {
+	font-size: 5.7rem;
+	margin: 120px 0 0 25px;
+}
+
+.para-head {
+	font-family: Roboto;
+	color: #3c3c3b;
+	font-size: 28px;
+	margin: 0px 0 0 25px;
+	text-transform: initial;
+	line-height: 20px;
+}
+.about-petsitting {
+	position: relative;
+	bottom: 60px;
+	font-size: 30px;
+}
+.services-Big-title {
+	text-align: center;
+	position: relative;
+	bottom: 70px;
+	font-family: mukta;
+	color: #352a7e;
+	font-weight: bold;
+	font-size: 45px;
+	text-transform: uppercase;
+}
+.become-pet-S {
+    font-family: mukta;
+    color: #352a7e;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 45px 0 50px 0;
+}
+.services-section {
+	padding: 0 60px;
+	height: 160vh;
+}
+.about-petsitting-section-para p {
+    font-size: 12px;
+}
+.petsitting-section p {
+	font-family: roboto;
+	color: #4d4d4d;
+	font-size: 12px;
+}
+.being-pet-S p {
+	font-size: 12px;
+}
+.join-icons {
+	float: right;
+	font-family: mukta;
+	color: #352a7e;
+	font-weight: bold;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	padding-left: 150px;
+}
+.fa-facebook-square{
+	font-size: 1.6rem;
+	color: #3b5998;
+}
+.fa-instagram {
+	font-size: 1.6rem;
+	background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0 10px;
+}
+.fa-google-plus-square {
+	font-size: 1.6rem;
+	color: #d34836;
+}
+.fab-fab-icon {
+	margin-top: 90px;
+}
+.footer-para-rights p {
+	font-family: mukta;
+	color: #352a7e;
+	font-weight: lighter;
+	font-size: 0.6rem;
+	text-transform: uppercase;
+	width: 15vw;
+
+}
+
+}
+
+
+@media (max-width: 950px) {
+.NAVbar-style {
+	font-size: 13px;
+	margin-right: 5px;
+}
+.navbar-brand img {
+	height: 8vh;
+	margin-right: 40px;
+	
+}
+.sign-up-btn {
+	padding: 7px 17px;
+	font-size: 12px;
+}
+.login-btn {
+	padding: 7px 17px;
+	font-size: 12px;
+	margin-right: 24px;
+}
+.header-home-page {
+	padding: 8px 25px 0 30px;
+
+}
+.title-Big-head {
+	font-size: 4.7rem;
+	margin: 120px 0 0 25px;
+}
+
+.para-head {
+	font-family: Roboto;
+	color: #3c3c3b;
+	font-size: 25px;
+	margin: 0px 0 0 25px;
+	text-transform: initial;
+	line-height: 20px;
+}
+.about-petsitting {
+	position: relative;
+	bottom: 60px;
+	font-size: 30px;
+}
+.services-Big-title {
+	text-align: center;
+	position: relative;
+	bottom: 70px;
+	font-family: mukta;
+	color: #352a7e;
+	font-weight: bold;
+	font-size: 45px;
+	text-transform: uppercase;
+}
+.become-pet-S {
+    font-family: mukta;
+    color: #352a7e;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 45px 0 50px 0;
+}
+.services-section {
+	padding: 0 60px;
+	height: 160vh;
+}
+.about-petsitting-section-para p {
+    font-size: 12px;
+}
+.petsitting-section p {
+	font-family: roboto;
+	color: #4d4d4d;
+	font-size: 12px;
+}
+
+.apply-btn {
+	padding: 8px 50px;
+	font-size: 14px;
+	float: right;
+	margin-top: 25px;
+}
+.about-petsitting-section {
+	height: 150vh;
+}
+.woman-and-dog img {
+	width: 30vw;
+}
+}
+
+
+@media (max-width: 822px) {
+.NAVbar-style {
+	font-size: 12px;
+	margin-right: 4px;
+
+}
+.navbar-brand img {
+	height: 7vh;
+	margin-right: 25px;
+	
+}
+.sign-up-btn {
+	
+	padding: 6px 16px;
+	font-size: 11px;
+}
+.login-btn {
+	
+	padding: 6px 16px;
+	font-size: 11px;
+	margin-right: 20px;
+}
+.header-home-page {
+	padding: 8px 0px 0 10px;
+
+}
+.title-Big-head {
+	font-size: 4rem;
+	margin: 100px 0 0 25px;
+}
+
+.para-head {
+	font-family: Roboto;
+	color: #3c3c3b;
+	font-size: 23px;
+	margin: 0px 0 0 25px;
+	text-transform: initial;
+	line-height: 20px;
+}
+.about-petsitting {
+	position: relative;
+	bottom: 60px;
+	font-size: 30px;
+}
+.services-Big-title {
+	text-align: center;
+	position: relative;
+	bottom: 70px;
+	font-family: mukta;
+	color: #352a7e;
+	font-weight: bold;
+	font-size: 45px;
+	text-transform: uppercase;
+}
+.become-pet-S {
+    font-family: mukta;
+    color: #352a7e;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 45px 0 50px 0;
+}
+.services-section {
+	padding: 0 60px;
+	height: 160vh;
+}
+.about-petsitting-section-para p {
+    font-size: 12px;
+}
+.about-petsitting-section-svg img {
+	width: 30vw;
+
+}
+.petsitting-section p {
+	font-family: roboto;
+	color: #4d4d4d;
+	font-size: 12px;
+}
+
+.apply-btn {
+	padding: 8px 50px;
+	font-size: 14px;
+	float: right;
+	margin-top: 25px;
+}
+.about-petsitting-section {
+	height: 150vh;
+}
+.woman-and-dog img {
+	width: 30vw;
+}
+
+}
+
+@media (max-width: 767px) {
+
+.sign-up-btn {
+	display: none;
+	padding: 6px 16px;
+	font-size: 11px;
+	float: right;
+}
+.login-btn {
+	display: none;
+	padding: 6px 16px;
+	font-size: 11px;
+	float: right;
+}
+.nav-link-mobile {
+	display: block;
+}
+.header-home-page {
+	padding: 10px 20px 0 20px;
+	height: 120vh;
+
+}
+.nav-link {
+	float: right;
+	}
+a.nav-link {
+	color: #000 !important;
+}
+a.howWeWORK-nav-link {
+	color: #000;
+}
+
+}
+@media (max-width: 625px) {
+	.apply-btn {	
+	padding: 10px 45px;
+	font-size: 12px;
+	float: right;
+	margin-top: 60px;
+}
+}
+@media (max-width: 658px) {
+
+	.multi-input-grp {
+	margin: 70px 0 0 25px;
+	width: 450px;
+}
+.fa-search {
+	position: relative;
+	left: 440px;
+	top: -31px;
+	z-index: 3;
+	color: #c6c6c5;
+}
+}
+
+@media (max-width: 550px) {
+
+	.multi-input-grp {
+	margin: 70px 0 0 25px;
+	width: 350px;
+}
+.fa-search {
+	position: relative;
+	left: 340px;
+	top: -31px;
+	z-index: 3;
+	color: #c6c6c5;
+}
+.title-Big-head {
+	font-size: 3.5rem;
+	margin: 100px 0 0 25px;
+}
+
+.para-head {
+	font-family: Roboto;
+	color: #3c3c3b;
+	font-size: 20px;
+	margin: 0px 0 0 25px;
+	text-transform: initial;
+	line-height: 20px;
+}
+.header-home-page {
+	background-image: none;
+
+
+}
+a.nav-link {
+	color: #000 !important;
+}
+.join-icons {
+	float: right;
+	font-family: mukta;
+	color: #352a7e;
+	font-weight: bold;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+	padding-left: 10px;
+}
+.fa-facebook-square{
+	font-size: 1.6rem;
+	color: #3b5998;
+}
+.fa-instagram {
+	font-size: 1.6rem;
+	background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0 10px;
+}
+.fa-google-plus-square {
+	font-size: 1.6rem;
+	color: #d34836;
+}
+.fab-fab-icon {
+	margin-top: 90px;
+}
+.footer-para-rights p {
+	font-family: mukta;
+	color: #352a7e;
+	font-weight: lighter;
+	font-size: 0.6rem;
+	text-transform: uppercase;
+	width: 15vw;
+
+}
+}
+
+@media (max-width: 570px) {
+	.about-petsitting-section {
+	height: 180vh;
+}
+	.woman-and-dog img {
+    width: 50vw;
+}
+}
+
+
+
+/* ----------------------------- HOW WE WORK CSS SECTION ---------------------------- */
+
+
+.header-how-page {
+	padding: 10px 40px 0 40px;
+	background-color: #e6e6e6;
+	text-transform: uppercase;
+	font-family: roboto;
+	font-size: 18px;
+	height: 155vh;
+	align-items: center;
+}
+.how-title {
+	font-family: mukta;
+	color: #352a7e;
+	font-weight: bold;
+	font-size: 38px;
+	text-transform: uppercase;
+	margin: 50px 0px;
+	text-align: center;
+}
+
+.video-player {
+	display: block;
+	margin: 0 auto;
+	width: 70vw;
+}
+
+.about-about-petsitting-section {
+	height: 100vh;
+	background-image: none;
+}
+
+.sign-how {
+	color: #fff;
+	background-color: #352a7e;
+	padding: 10px 55px;
+	font-size: 16px;
+	border: none;
+	border-radius: 16px;
+	color: #fff; 
+	font-family: Roboto;
+	box-shadow: 20px 12px 100px -2px rgba(0,0,0,0.56);
+	margin-top: 50px;
+}
+.sign-how:hover {
+	transform: translateY(1px);
+}
+.sign-how a {
+	text-decoration: none;
+	color: #fff;
+}
+.profile-picture {
+	width: 18vw;
+	border-radius: 20%;
+	float: left;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+
+.bio-prof {
+	margin-top: 80px;
+}
+
+.bio-prof h1 { 
+	font-family: mukta;
+	color: #000;
+	font-weight: bold;
+	font-size: 3rem;
+	text-transform: lowercase;
+	 }
+.bio-prof p { 
+	font-family: roboto;
+	color: #4d4d4d;
+	font-size: 1rem;
+	text-transform: lowercase;
+	width: 800px;
+	text-align: justify;
+	 }
+.contact-petsitter img {
+	 width: 4vw;
+	 float: left;
+}
+
+.contact-petsitter {
+	position: absolute;
+	top: 20%;
+	right: 10%;
+}
+.contact-petsitter p {
+	float:right;
+	margin-top: 15px;
+	margin-right: 70px;
+}
+.contact-petsitter h3 {
+	color: #5649ad;
+	font-family: mukta;
+	font-size: 1.1rem;
+	margin-bottom: 30px;
+}
+
+.contact-petsitter-email {
+	position: absolute;
+	top: 32%;
+	right: 5%;
+}
+.contact-petsitter-email img {
+	 width: 4vw;
+	 float: left;
+	 margin-right: 20px;
+}
+.contact-petsitter-email p {
+	float:right;
+	margin-top: 15px;
+	margin-right: 70px;
+	font-size: .9rem;
+	text-transform: lowercase;
+}
+
+.services-aside {
+	position: absolute;
+	top: 65%;
+	background-color: #b6b3cc !important;
+	margin-left: 70px;
+	font-family: roboto;
+}
+.dark h3 {
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
+.dark h3 span {
+	font-size: 1.2rem;
+	float: right;
+	margin-bottom: 
+}
+.dark h4 span {
+	font-size: 1.2rem;
+	float: right;
+	font-weight: lighter;
+}
+.dark h4 {
+	font-weight: lighter;
+}
+   
+.dark h1 {
+	text-align: center;
+	margin-bottom: 30px;
+	color: #352a7e;
+}
+
+.gallery-pet img {
+	 width: 30vw;
+}
+
+.gallery-pet {
+	position: absolute;
+	top: 75%;
+	right: 32%;
+}
+.pet-gallery img {
+	width: 20vw;
+}
+.pet-gallery {
+	position: absolute;
+	top: 75%;
+	right: 8%;
+}
+
+.bio-bio {
+	padding: 0px 80px 80px 80px;
+	background-color: #e6e6e6;
+	font-family: roboto;
+	font-size: 18px;
+	text-align: center ;
+	margin-bottom: 120px;
+}
+.bio-bio p {
+	color: #4d4d4d;
+	margin-top: 80px;
+}

@@ -673,7 +673,7 @@ a.nav-link:hover {
 	margin-top: 25px;
 }
 .about-petsitting-section {
-	height: 150vh;
+	height: 160vh;
 }
 .woman-and-dog img {
 	width: 30vw;
@@ -721,6 +721,7 @@ a.howWeWORK-nav-link {
 	float: right;
 	margin-top: 60px;
 }
+
 }
 @media (max-width: 658px) {
 
@@ -734,6 +735,9 @@ a.howWeWORK-nav-link {
 	top: -31px;
 	z-index: 3;
 	color: #c6c6c5;
+}
+.how-title {
+	font-size: 1rem;
 }
 }
 
@@ -766,6 +770,7 @@ a.howWeWORK-nav-link {
 .header-home-page {
 	background-image: none;
 
+}
 
 }
 a.nav-link {
@@ -811,7 +816,7 @@ a.nav-link {
 
 @media (max-width: 570px) {
 	.about-petsitting-section {
-	height: 180vh;
+	height: 190vh;
 }
 	.woman-and-dog img {
     width: 50vw;
@@ -836,7 +841,7 @@ a.nav-link {
 	font-family: mukta;
 	color: #352a7e;
 	font-weight: bold;
-	font-size: 38px;
+	font-size: 27px;
 	text-transform: uppercase;
 	margin: 50px 0px;
 	text-align: center;
@@ -900,19 +905,20 @@ a.nav-link {
 	text-align: justify;
 	 }
 .contact-petsitter img {
-	 width: 4vw;
+	 width: 3.5vw;
 	 float: left;
 }
 
 .contact-petsitter {
 	position: absolute;
 	top: 20%;
-	right: 10%;
+	right: 13.5%;
 }
 .contact-petsitter p {
 	float:right;
 	margin-top: 15px;
 	margin-right: 70px;
+	margin-left: 20px;
 }
 .contact-petsitter h3 {
 	color: #5649ad;
@@ -923,11 +929,11 @@ a.nav-link {
 
 .contact-petsitter-email {
 	position: absolute;
-	top: 32%;
-	right: 5%;
+	top: 31%;
+	right: 7.5%;
 }
 .contact-petsitter-email img {
-	 width: 4vw;
+	 width: 3.5vw;
 	 float: left;
 	 margin-right: 20px;
 }
@@ -935,7 +941,7 @@ a.nav-link {
 	float:right;
 	margin-top: 15px;
 	margin-right: 70px;
-	font-size: .9rem;
+	font-size: 1.1rem;
 	text-transform: lowercase;
 }
 

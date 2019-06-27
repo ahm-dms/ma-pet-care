@@ -278,3 +278,60 @@ ul#services li{
   width: 300px;
 }
 }
+
+
+@media (max-width: 680px) { 
+  aside {
+    display: none;
+  }
+   li.user-section  {
+  
+  width: 500px;
+
+}
+.page-title {
+  font-family: mukta;
+  color: #5649ad;
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 50px 0 50px 100px;
+  width: 330px;
+}
+li.user-section p {
+  font-family: roboto;
+  width: 420px;
+  text-align: justify;
+  line-height: 20px;
+  font-size: 0.7rem;
+}
+}
+
+@media (max-width: 550px) { 
+  aside {
+    display: none;
+  }
+   li.user-section  {
+  
+  width: 450px;
+
+}
+.page-title {
+  font-family: mukta;
+  color: #5649ad;
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 50px 0 50px 50px;
+  width: 330px;
+}
+li.user-section p {
+  font-family: roboto;
+  width: 400px;
+  text-align: justify;
+  line-height: 20px;
+  font-size: 0.7rem;
+}
+}

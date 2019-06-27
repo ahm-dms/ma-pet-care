@@ -16,10 +16,10 @@
 	<link rel="stylesheet" href="css/style2.css">
 	<title>Pet Sitter</title>
 </head>
-<body>
+<body style="background-color: #e6e6e6;">
 	<div class="bg-body-whole">
   <div class="spacing-clt">
-
+  
 		<nav class="navbar navbar-expand-md navbar-light mb-3">
               <div class="container">
                 <a class="navbar-brand" href="#"><img src="img/pet-logo.png"></a>
@@ -30,10 +30,10 @@
                             <a class="nav-link" href="index.html" style="color: #333333;">Home</a>
                         </li>
                         <li class="nav-item NAVbar-style">
-                            <a class="nav-link" href="User Login System/User Registration.html" style="color: #333333;">Become a petsitter</a>
+                            <a class="nav-link" href="howWeWork.html" style="color: #333333;">Become a petsitter</a>
                         </li>
                         <li class="nav-item NAVbar-style">
-                            <a class="nav-link" href="howWeWork.html" style="color: #333333;">How we work ?</a>
+                            <a class="nav-link" href="sitter_info.html" style="color: #333333;">How we work ?</a>
                         </li>
                         <li class="nav-item NAVbar-style">
                             <a class="nav-link" href="contact.html" style="color: #333333;">Contact us</a>
@@ -53,61 +53,60 @@
                   <button class="sign-up-btn"><a href="User Login System/User Registration.html"> sing up</a></button>
                 </div>
             </nav>
-		<h2>Pet Sitter Registration</h2>
-		<p><strong>Your profile is a representation of you as a Pet Sitter so it is important to consider the content you choose to use.</strong></p>
+
+      <div class="sitter-info">      
+		<h2 class="regist-title">Pet Sitter Registration</h2>
+		<p class="para-sitter-info">Your profile is a representation of you as a Pet Sitter so it is important to consider the content you choose to use.</p>
 	<form action="service/valider_sitter.php" method="post">
-		<div class="about">
-			<h3>Name :</h3>
-			<input id="today2" type="text" name="name">
+    <div class="about">
+      <h3>Full Name :</h3>
+      <input id="today2" type="text" name="name">
 
-			<h3>Birthday :</h3>
-			<input id="today2" type="date" name="daten"><br>
-			<h3>Gendre :</h3>
-			<input type="radio" name="gender" value="male"><strong>Male</strong><br><br>
-			<input type="radio" name="gender" value="female"><strong>Female</strong><br><br>
+      <h3>Birthday :</h3>
+      <input id="today2" type="date" name="daten"><br>
+      
+      <h3>Write 5 to 10 words highlighting why you're a great Pet Sitter.</h3>
 
-			<h3>Write 5 to 10 words highlighting why you're a great Pet Sitter.</h3>
+      <textarea rows="4" cols="50" name="desc" class="text"></textarea>
 
-			<textarea rows="4" cols="50" name="desc" class="text"></textarea>
+      <h3>Your Pet Sitter Bio :</h3>
 
-			<h3>Your Pet Sitter Bio :</h3>
+      <textarea rows="4" cols="50" name="bio" class="text"></textarea>
 
-			<textarea rows="4" cols="50" name="bio" class="text"></textarea>
+      <h3>Your Pet Service Types</h3>
 
-			<h3>Your Pet Service Types</h3>
+      <h3>Let us know the pet services you would like to offer as a Ma Pet Care pet sitter :</h3>
 
-			<h3>Let us know the pet services you would like to offer as a Ma Pet Care pet sitter :</h3>
+      <input type="radio" name="service" value="Pet Day Care"><strong>Pet Day Care</strong><br><br>
+      <input type="radio" name="service" value="Pet Sitting"><strong>Pet Sitting</strong><br><br>
+      <input type="radio" name="service" value="Dog Walking"><strong>Dog Walking</strong><br><br>
 
-			<input type="radio" name="service" value="Pet Day Care"><strong>Pet Day Care</strong><br><br>
-			<input type="radio" name="service" value="Pet Sitting"><strong>Pet Sitting</strong><br><br>
-			<input type="radio" name="service" value="Dog Walking"><strong>Dog Walking</strong><br><br>
+      <h3>Type of pet you would accept :</h3> 
 
-			<h3>Type of pet you would accept :</h3> 
+       <input type="radio" name="type" value="Dogs"><strong>Dogs</strong><br><br>
+      <input type="radio" name="type" value="Cats"><strong>Cats</strong><br><br>
 
-			 <input type="radio" name="type" value="Dogs"><strong>Dogs</strong><br><br>
-			<input type="radio" name="type" value="Cats"><strong>Cats</strong><br><br>
+      <h3>Base Rate Per Night :</h3>
+      <select name="tarif" style="width: 20%;height: 40px;border-radius: 10px;">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
 
-			<h3>Base Rate Per Night :</h3>
-			<select name="tarif" style="width: 20%;height: 40px;border-radius: 10px;">
-				<option value="1">1</option>
-				<option value="2">2</option>
-				<option value="3">3</option>
-				<option value="4">4</option>
-				<option value="5">5</option>
-			</select>
-
-			<h3>Total Number of Pet you can take for a service :</h3>
-			<select name="nbrser" style="width: 20%;height: 40px;border-radius: 10px;">
-				<option value="1">1</option>
-				<option value="2">2</option>
-				<option value="3">3</option>
-				<option value="4">4</option>
-				<option value="5">5</option>
-			</select> 
-			<h3>Add some Picture for your gallery :</h3>
-			<button>Save</button>
-		</div>
-	</form>
+      <h3>Total Number of Pet you can take for a service :</h3>
+      <select name="nbrser" style="width: 20%;height: 40px;border-radius: 10px;">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select> 
+      <h3>Add some Picture for your gallery :</h3>
+      <button>Save</button>
+    </div>
+  </form>
 </div>
 </div>
  <div class="container-fluid footer-home-petsitting">
